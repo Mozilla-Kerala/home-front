@@ -1,0 +1,17 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            "mozillakerala",
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "mozillakerala",
+            "kebab-case"
+        ]
+    }
+}
