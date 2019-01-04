@@ -1,5 +1,7 @@
 # MozillaKerala
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f55e09c16f84e76834fc1a35d2dc14c)](https://app.codacy.com/app/Mozilla-Kerala/home-front?utm_source=github.com&utm_medium=referral&utm_content=Mozilla-Kerala/home-front&utm_campaign=Badge_Grade_Dashboard)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
 ## Development server
