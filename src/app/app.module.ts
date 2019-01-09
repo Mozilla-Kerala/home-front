@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { AirbrakeErrorHandler } from 'src/app/error_handler';
 
 @NgModule({
   declarations: [
@@ -17,9 +16,7 @@ import { AirbrakeErrorHandler } from 'src/app/error_handler';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [
-    {provide: ErrorHandler, useClass: AirbrakeErrorHandler}
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
